@@ -1,5 +1,5 @@
 ---
-name: jlreq
+name: jlreq-skill
 description: W3C JLREQ（日本語組版処理の要件）のAIエージェント向けリファレンス。縦書き・横組の行組版、約物配置、ルビ・圏点、見出し処理、図版配置等の日本語組版ルールを網羅。章ごとにreferencesに分割し、必要な章だけ読める。
 version: 1.0.1
 tags: [jlreq, japanese, typesetting, css, epub, pdf, w3c, layout]

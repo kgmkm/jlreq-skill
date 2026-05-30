@@ -1,4 +1,4 @@
-# jlreq
+# jlreq-skill
 
 W3C [Requirements for Japanese Text Layout（日本語組版処理の要件）](https://www.w3.org/TR/jlreq/) をAIエージェントが実務で使えるよう構造化したリファレンスです。
 
@@ -21,7 +21,7 @@ W3C [Requirements for Japanese Text Layout（日本語組版処理の要件）](
 ## ファイル構成
 
 ```
-jlreq/
+jlreq-skill/
 ├── SKILL.md                            ← AIエージェント向け（自動読み込み）
 ├── README.md                           ← このファイル（人間向け）
 └── references/                         ← 章ごとのリファレンス
@@ -58,10 +58,8 @@ Hermes Agentにスキルとしてインストール:
 
 ```
 以下のGitHubリポジトリをスキルとしてインストールしてください：
-https://github.com/kgmkm/jlreq
+https://github.com/kgmkm/jlreq-skill
 ```
-
-またはローカルの `/mnt/y/novel/skills/jlreq/` を参照。
 
 ## 関連スキル
 
@@ -72,13 +70,13 @@ https://github.com/kgmkm/jlreq
 
 ```python
 # 縦書きの行頭字下げルールを確認したい場合
-skill_view(name='jlreq', file_path='references/ch03-line-composition.md')
+skill_view(name='jlreq-skill', file_path='references/ch03-line-composition.md')
 
 # 文字クラスの振る舞いを確認したい場合
-skill_view(name='jlreq', file_path='references/appendix-character-classes.md')
+skill_view(name='jlreq-skill', file_path='references/appendix-character-classes.md')
 
 # 用語の意味を確認したい場合
-skill_view(name='jlreq', file_path='references/appendix-terminology.md')
+skill_view(name='jlreq-skill', file_path='references/appendix-terminology.md')
 ```
 
 ## ライセンス
