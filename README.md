@@ -81,5 +81,10 @@ skill_view(name='jlreq-skill', file_path='references/appendix-terminology.md')
 
 ## ライセンス
 
-- **本スキル（構造化・要約）**: MIT License
-- **原文（W3C JLREQ）**: [W3C Permissive Document License](https://www.w3.org/copyright/document-license-2023/)
+本スキルは [Requirements for Japanese Text Layout](https://www.w3.org/TR/jlreq/)（W3C Working Group Note）をベースに構造化・要約したものです。
+
+原文は [W3C Software and Document License](https://www.w3.org/copyright/software-license-2023/) の下で提供されています。
+
+> This resource includes content derived from [Requirements for Japanese Text Layout](https://www.w3.org/TR/jlreq/) (W3C Working Group Note, Copyright © World Wide Web Consortium), available under the [W3C Software and Document License](https://www.w3.org/copyright/software-license-2023/).
+
+本スキル独自の構造化・要約部分は MIT License とします。
